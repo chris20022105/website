@@ -1,0 +1,258 @@
+@font-face {
+	src: url("fonts/Billy Ohio.ttf");
+	font-family: 'Billy Ohio';
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.main-title {
+	background-color: #555;
+	margin: 0;
+}
+
+body {
+	background-color: #eee;
+	overflow-x: hidden;
+}
+
+
+.nav {
+	background-color: transparent; 
+	width: 100%;
+	display: block;
+	text-align: center;
+	position: fixed;
+}
+
+.nav__ul{
+	margin: 0 30px;
+	padding: 0 30px;
+}
+
+.nav__li {
+	letter-spacing: 2px;
+	display: inline-block;
+	width: auto;
+	padding: 15px 15px;
+	box-sizing: border-box;
+}
+.nav__li:hover > a {
+	color: #14B76E;
+	border-bottom: 3px solid #14B76E;
+}
+
+.nav__li a {
+	font-family: 'Poiret One', cursive;
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+}
+
+#nav-actual {
+	color: #14B76E;
+	border-bottom: 3px solid #14B76E;
+}
+
+.intro {
+	min-width: 600px;
+	text-align: center;
+}
+.intro h1 {
+	padding: 84px 45px 0px 45px;
+	width: auto;
+	font: 100px "Billy Ohio";
+	color:  #086972;
+	line-height: 1.6em;
+}
+
+section {
+	min-width: 300px;
+	padding-bottom: 37px;
+	display: grid;
+}
+
+strong {
+	font-size: 50px;
+	letter-spacing: 3px;
+	font-family: 'Shadows Into Light', cursive;
+	color: #000;
+}
+.title {
+	padding: 0 0 20px 0;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+	color: #000;
+	font-size: 40px;
+}
+.form {
+	text-align: center;
+	min-width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box {
+	font-size: 20px;
+	font-family: 'Handlee', cursive;
+	padding-top: 10px;
+}
+.form__section {
+	width: 100%; 
+	display: inline-block;
+	text-align: center;
+}
+.form__input-line {
+	padding: 0 10px 0 10px;
+ 	font-size: 15px;
+	width: 70%;
+	padding: 7px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 3px solid  #086972;
+	background: #ddd;
+	color: #000;
+}
+
+.float-right {
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+	
+}
+
+.float-left {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	
+}
+
+.form__input-line:hover {
+	border: 1.5px solid #5aa;
+	border-bottom: 1.5px solid #5aa;
+	background: #ccc;
+	color: #000;
+}
+
+button {
+	outline: none;
+}
+.form__input {
+	font-size: 15px;
+	width: 85%;
+	padding: 7px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 3px solid  #086972;
+	background: #ddd;
+	color: #000;
+}
+
+.form__input:hover {
+	border: 1.5px solid #5aa;
+	border-bottom: 1.5px solid #5aa;
+	background: #ccc;
+	color: #000;
+}
+
+.form__input:focus {
+	outline: none;
+}
+.form__input-line:focus{
+	outline: none;
+}
+
+.form textarea {
+	min-height: 94px;
+	resize: none; /* Para que este no se pueda estirar */
+}
+
+.buttons {
+	text-align: center;
+	padding: 45px 0px 40px 0px;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 650px; 
+}
+.form__button {
+	font: inherit;
+	color: #fff;
+	background: linear-gradient(left, #17B978, rgba(56,56,165,1));
+	background: linear-gradient(to right, #17B978, rgba(56,56,165,1));
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: left;
+	border-radius: 40px;
+	padding: 12px 27px 12px 27px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	border: 2px solid #fff;
+}
+.form__button:hover {
+	background: #14B76E;
+	border: 2px solid #14B76E;
+}
+
+#meet-me {
+	box-sizing: border-box;
+	display: inline-block;
+	padding-left: 136px;
+	padding-right: 7px; 
+}
+#about-me-button {
+	color: #086972;
+	font: inherit;
+	text-decoration: none;
+	border: 2px solid #086972;
+	border-radius: 40px;
+	padding: 10px 25px 10px 25px;
+	letter-spacing: 2px;
+}
+
+#about-me-button:hover {
+	background-color: #086972;
+	color: #fff;
+}
+
+footer {
+	color: #fff;	
+	background-color:  #071A52; 
+	position: absolute;
+	width: 100%; 
+}
+
+.text-footer {
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Saira Condensed', sans-serif;
+	padding: 17.3px 20px;
+	text-align: center; 	 
+	font-size: 15px;
+}
+.icon {
+	text-align: center;
+}
+.icon i{
+	padding: 0 15px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.instagram:hover {
+	color: #bbb; 
+	/*transition: 0.6s;
+	position: relative;
+	transform-style: preserve-3d; 
+  	font-size: 30px;*/
+}
+.facebook:hover {
+	color: #bbb ;
+}
+.whatsapp:hover {
+	color:  #bbb;
+}
